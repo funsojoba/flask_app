@@ -3,21 +3,7 @@
 {% endblock %} {% block body %}
 
 <div class="container">
-<h2>Task Manager</h2>
-<table>
-  <tr>
-    <th>Task</th>
-    <th>Date added</th>
-    <th>Action</th>
-  </tr>
-  {% for task in tasks %}
-  <tr>
-    <td>{{task.content}}</td>
-    <td>{{task.created_at.date()}}</td>
-    <td><button>Edit</button> &nbsp; <button>Delete</button></td>
-  </tr>
-  {% endfor %}
-</table>
+<h2>Update Task Manager</h2>
 
 <form action="/" method="post">
   <div class="form-group">
