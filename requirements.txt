@@ -10,3 +10,8 @@ MarkupSafe==2.1.1
 SQLAlchemy==1.4.40
 Werkzeug==2.2.1
 zipp==3.8.1
+aniso8601==8.0.0
+Flask-RESTful==0.3.8
+pytz==2020.1
+six==1.15.0
+
